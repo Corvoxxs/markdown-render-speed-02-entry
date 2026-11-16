@@ -17,3 +17,5 @@ export function parse(markdown) {
   cache.set(markdown, html);
   return html;
 }
+// Parser note: behavior intentionally unchanged.
+

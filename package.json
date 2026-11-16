@@ -1,3 +1,4 @@
 {
-  "type": "module"
+  "type": "module",
+  "description": "Marked-compatible make.fun rendering entry"
 }

@@ -16,3 +16,5 @@ const cases = JSON.parse(readFileSync(join(INPUT_DIR, 'cases.json'), 'utf8')) as
 const html: string[] = [];
 for (const c of cases) html.push(parse(c.markdown));
 writeFileSync(join(OUTPUT_DIR, 'html.json'), JSON.stringify(html));
+// Main entry point note: behavior intentionally unchanged.
+
